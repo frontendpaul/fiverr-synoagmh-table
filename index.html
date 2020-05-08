@@ -4,1049 +4,383 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Teble Differences Script</title>
-
-  <style>
-    td {
-      border: 1px solid #666;
-    }
-
-    table {
-      border-spacing: 0;
-    }
-
-    .difference-accent {
-      color: #fff;
-      background: rgb(72, 127, 228);
-    }
-  </style>
 </head>
 
 <body>
   <table>
     <tbody>
       <tr class="product-shop-row first odd">
-        <td><b>Artikel</b></td>
+                                                            <td class=""><b>Artikel</b></td>
+          
+                              <td class="">
 
-        <td>
+              <div class="tags tags--center">
+                <div data-tag-text="Referenzprodukt"></div>
+              </div>
 
-          <div class="tags tags--center">
-            <div data-tag-text="Referenzprodukt"></div>
-          </div>
-
-          <b>IED-68M3611MAA 9006</b>
-        </td>
-
-
-        <td>
-          <b>IED-68M3611MAA 7016</b>
-        </td>
-
-
-        <td>
-          <b>IED-68M3611MAA 9005</b>
-        </td>
-
-
-        <td>
-          <b>IED-68M3611MAA 703</b>
-        </td>
-
-
-        <td class="last">
-          <b>IED-54F0028MBA</b>
-        </td>
-
-      </tr>
+              <b>IED-68M3611MAA 9006</b>
+            </td>
+          
+                        
+                              <td class="last">
+                <b>IED-54F0028MBA</b>
+            </td>
+        
+                    </tr>
       <tr class="product-shop-row even">
-        <td>Produktfoto</td>
-        <td>
-          <a class="product-image" href="#"
-            onclick="setLocation('https://eneo-security.com/de/ied-68m3611maa-9006.html', true)"
-            title="IED-68M3611MAA 9006">
-            <img class="box box--beta"
-              src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225716.jpg"
-              width="125" height="125" alt="IED-68M3611MAA 9006">
-          </a>
-        </td>
-        <td>
-          <a class="product-image" href="#"
-            onclick="setLocation('https://eneo-security.com/de/ied-68m3611maa-7016.html', true)"
-            title="IED-68M3611MAA 7016">
-            <img class="box box--beta"
-              src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225717.jpg"
-              width="125" height="125" alt="IED-68M3611MAA 7016">
-          </a>
-        </td>
-        <td>
-          <a class="product-image" href="#"
-            onclick="setLocation('https://eneo-security.com/de/ied-68m3611maa-9005.html', true)"
-            title="IED-68M3611MAA 9005">
-            <img class="box box--beta"
-              src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225718.jpg"
-              width="125" height="125" alt="IED-68M3611MAA 9005">
-          </a>
-        </td>
-        <td>
-          <a class="product-image" href="#"
-            onclick="setLocation('https://eneo-security.com/de/ied-68m3611maa-703.html', true)"
-            title="IED-68M3611MAA 703">
-            <img class="box box--beta"
-              src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225719.jpg"
-              width="125" height="125" alt="IED-68M3611MAA 703">
-          </a>
-        </td>
-        <td class="last">
-          <a class="product-image" href="#"
-            onclick="setLocation('https://eneo-security.com/de/ied-54f0028mba.html', true)" title="IED-54F0028MBA">
-            <img class="box box--beta"
-              src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225713.jpg"
-              width="125" height="125" alt="IED-54F0028MBA">
-          </a>
-        </td>
-      </tr>
+                                                            <td class="">Produktfoto</td>
+                            <td>
+              <a class="product-image" href="#" onclick="setLocation('https://eneo-security.com/de/ied-68m3611maa-9006.html', true)" title="IED-68M3611MAA 9006">
+                <img class="box box--beta" src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225716.jpg" width="125" height="125" alt="IED-68M3611MAA 9006">
+              </a>
+          </td>
+                                          <td class="last">
+              <a class="product-image" href="#" onclick="setLocation('https://eneo-security.com/de/ied-54f0028mba.html', true)" title="IED-54F0028MBA">
+                <img class="box box--beta" src="https://eneo-security.com/media/catalog/product/cache/1/small_image/125x125/9df78eab33525d08d6e5fb8d27136e95/2/2/225713.jpg" width="125" height="125" alt="IED-54F0028MBA">
+              </a>
+          </td>
+                    </tr>
       <tr class="add-to-row odd">
-        <td>Artikelnummer</td>
-        <td>225716</td>
-        <td>225717</td>
-        <td>225718</td>
-        <td>225719</td>
-        <td class="last">225713</td>
-      </tr>
+                                                                <td class="">Artikelnummer</td>
+                            <td class="">225716</td>
+                                              <td class="last">225713</td>
+                        </tr>
       <tr class="add-to-row even">
-        <td>Hersteller</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="last"></td>
-      </tr>
+                                                                <td>Hersteller</td>
+                            <td class=""></td>
+                                              <td class="last"></td>
+                        </tr>
       <tr class="add-to-row odd">
-        <td>Kurzbeschreibung</td>
-        <td>1/2,5" Netzwerk Dome, Fix, 3840x2160,Tag/Nacht, WDR, 3,6-11mm, IR, Silber Metallic</td>
-        <td>1/2,5" Netzwerk Dome, Fix, 3840x2160,Tag/Nacht, WDR, 3,6-11mm, IR, Anthrazitgrau</td>
-        <td>1/2,5" Netzwerk Dome, Fix, 3840x2160,Tag/Nacht, WDR, 3,6-11mm, IR, IP66, Schwarz</td>
-        <td>1/2,5" Netzwerk Dome, Fix, 3840x2160,Tag/Nacht, WDR, 3,6-11mm, IR, Eisenglimmer</td>
-        <td class="last">1/3" Netzwerk Dome, Tag/Nacht, 2592x1520, H.265, Infrarot, 2,8mm, PoE, IP66</td>
-      </tr>
+                                                                  <td class="">Kurzbeschreibung</td>
+                            <td class="">1/2,5" Netzwerk Dome, Fix, 3840x2160,Tag/Nacht, WDR, 3,6-11mm, IR, Silber Metallic</td>
+                                              <td class="last">1/3" Netzwerk Dome, Tag/Nacht, 2592x1520, H.265, Infrarot, 2,8mm, PoE, IP66</td>
+                        </tr>
 
 
-
+      
 
       <tr class="add-to-row even">
-        <td>Optionen</td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-9006.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10955/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10955/" class="link-wishlist "
-                id="am_10955_1">Merken</a></li>
-          </ul>
-        </td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-7016.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10956/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10956/" class="link-wishlist "
-                id="am_10956_1">Merken</a></li>
-          </ul>
-        </td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-9005.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10957/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10957/" class="link-wishlist "
-                id="am_10957_1">Merken</a></li>
-          </ul>
-        </td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-703.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10958/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10958/" class="link-wishlist "
-                id="am_10958_1">Merken</a></li>
-          </ul>
-        </td>
-        <td class="last">
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-54f0028mba.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10976/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10976/" class="link-wishlist "
-                id="am_10976_1">Merken</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr class="add-to-row divider-row odd">
-        <td><b>Spezifikationen</b></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td class="last">&nbsp;</td>
-      </tr>
+                                                                <td>Optionen</td>
+                            <td class="">
+                <ul class="list list--alpha helper--delta">
+                    <li><a href="https://eneo-security.com/de/ied-68m3611maa-9006.html" class="link-wishlist">Details</a></li>
+                    <li><a href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10955/',1);" name="https://eneo-security.com/de/amlist/list/addItem/product/10955/" class="link-wishlist " id="am_10955_1">Merken</a></li>
+                </ul>
+          </td>
+                                              <td class="last">
+                <ul class="list list--alpha helper--delta">
+                    <li><a href="https://eneo-security.com/de/ied-54f0028mba.html" class="link-wishlist">Details</a></li>
+                    <li><a href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10976/',1);" name="https://eneo-security.com/de/amlist/list/addItem/product/10976/" class="link-wishlist " id="am_10976_1">Merken</a></li>
+                </ul>
+          </td>
+                        </tr>
+                    <tr class="add-to-row divider-row odd">
+                                                                <td><b>Spezifikationen</b></td>
+                            <td class="">&nbsp;</td>
+                                              <td class="last">&nbsp;</td>
+                        </tr>
 
-      <tr class="even">
-        <td class="headline"><span class="nobr">Kamera:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Kameraform</span></td>
-        <td class="center">Dome</td>
-        <td class="center">Dome</td>
-        <td class="center">Dome</td>
-        <td class="center">Dome</td>
-        <td class="center last">Dome</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Chipgröße</span></td>
-        <td class="center">1/2,5"</td>
-        <td class="center">1/2,5"</td>
-        <td class="center">1/2,5"</td>
-        <td class="center">1/2,5"</td>
-        <td class="center different-value last">1/3"</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Auflösungsstandard</span></td>
-        <td class="center">4K Ultra HD</td>
-        <td class="center">4K Ultra HD</td>
-        <td class="center">4K Ultra HD</td>
-        <td class="center">4K Ultra HD</td>
-        <td class="center different-value last">4 Megapixel</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Aufnahmesensor</span></td>
-        <td class="center">CMOS, Sony STARVIS, Sensor IMX274</td>
-        <td class="center">CMOS, Sony STARVIS, Sensor IMX274</td>
-        <td class="center">CMOS, Sony STARVIS, Sensor IMX274</td>
-        <td class="center">CMOS, Sony STARVIS, Sensor IMX274</td>
-        <td class="center different-value last">CMOS, OmniVision Sensor 4689</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">System</span></td>
-        <td class="center">True Day&amp;Night</td>
-        <td class="center">True Day&amp;Night</td>
-        <td class="center">True Day&amp;Night</td>
-        <td class="center">True Day&amp;Night</td>
-        <td class="center last">True Day&amp;Night</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Lichtempfindlichkeit</span></td>
-        <td class="center">0,03 Lux, bei F1,5, 40IRE</td>
-        <td class="center">0,03 Lux, bei F1,5, 40IRE</td>
-        <td class="center">0,03 Lux, bei F1,5, 40IRE</td>
-        <td class="center">0,03 Lux, bei F1,5, 40IRE</td>
-        <td class="center different-value last">0,1 Lux, bei F2,1, 50 IRE</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Low Speed Shutter</span></td>
-        <td class="center">ja, automatisch</td>
-        <td class="center">ja, automatisch</td>
-        <td class="center">ja, automatisch</td>
-        <td class="center">ja, automatisch</td>
-        <td class="center last">ja, automatisch</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Manueller elektronischer Shutter (MES)</span></td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center last">1~1/20.000sec.</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Automatischer Elektronischer Shutter (ESC)</span></td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center">1~1/20.000sec.</td>
-        <td class="center last">1~1/20.000sec.</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Wide Dynamic Range (WDR)</span></td>
-        <td class="center">WDR 120dB</td>
-        <td class="center">WDR 120dB</td>
-        <td class="center">WDR 120dB</td>
-        <td class="center">WDR 120dB</td>
-        <td class="center different-value last">D-WDR</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Gegenlichtkompensation</span></td>
-        <td class="center">Smart BLC</td>
-        <td class="center">Smart BLC</td>
-        <td class="center">Smart BLC</td>
-        <td class="center">Smart BLC</td>
-        <td class="center different-value last">BLC</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Umschaltung Tag/Nachtbetrieb</span></td>
-        <td class="center">Tag, Nacht, automatisch</td>
-        <td class="center">Tag, Nacht, automatisch</td>
-        <td class="center">Tag, Nacht, automatisch</td>
-        <td class="center">Tag, Nacht, automatisch</td>
-        <td class="center last">Tag, Nacht, automatisch</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">IR-Sperrfilter</span></td>
-        <td class="center">schaltbar</td>
-        <td class="center">schaltbar</td>
-        <td class="center">schaltbar</td>
-        <td class="center">schaltbar</td>
-        <td class="center last">schaltbar</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Weißabgleich</span></td>
-        <td class="center">automatisch, manuell</td>
-        <td class="center">automatisch, manuell</td>
-        <td class="center">automatisch, manuell</td>
-        <td class="center">automatisch, manuell</td>
-        <td class="center last">automatisch, manuell</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Signal-/Rauschabstand</span></td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center different-value last">50dB</td>
-      </tr>
-      <tr class="even">
-        <td class="headline"><span class="nobr">Video:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Auflösung</span></td>
-        <td class="center">3840x2160 (16:9), 3072x2048 (4:3), 2592x1944 (4:3), 2592x1520 (16:9), 2560x1440 (16:9),
-          1920x1080 (16:9), 1440x1080 (4:3), 1280x1024 (5:4), 1024x768 (4:3), 1280x720 (16:9), 800x600 (4:3), 800x480
-          (16:9), 704x576 (4:3), 704x480 (4:3), 640x480 (4:3), 400x240 (4:3), 352x288 (4:3), 352x256 (4:3), 352:240
-          (4:3), 320x240 (4:3)</td>
-        <td class="center">3840x2160 (16:9), 3072x2048 (4:3), 2592x1944 (4:3), 2592x1520 (16:9), 2560x1440 (16:9),
-          1920x1080 (16:9), 1440x1080 (4:3), 1280x1024 (5:4), 1024x768 (4:3), 1280x720 (16:9), 800x600 (4:3), 800x480
-          (16:9), 704x576 (4:3), 704x480 (4:3), 640x480 (4:3), 400x240 (4:3), 352x288 (4:3), 352x256 (4:3), 352:240
-          (4:3), 320x240 (4:3)</td>
-        <td class="center">3840x2160 (16:9), 3072x2048 (4:3), 2592x1944 (4:3), 2592x1520 (16:9), 2560x1440 (16:9),
-          1920x1080 (16:9), 1440x1080 (4:3), 1280x1024 (5:4), 1024x768 (4:3), 1280x720 (16:9), 800x600 (4:3), 800x480
-          (16:9), 704x576 (4:3), 704x480 (4:3), 640x480 (4:3), 400x240 (4:3), 352x288 (4:3), 352x256 (4:3), 352:240
-          (4:3), 320x240 (4:3)</td>
-        <td class="center">3840x2160 (16:9), 3072x2048 (4:3), 2592x1944 (4:3), 2592x1520 (16:9), 2560x1440 (16:9),
-          1920x1080 (16:9), 1440x1080 (4:3), 1280x1024 (5:4), 1024x768 (4:3), 1280x720 (16:9), 800x600 (4:3), 800x480
-          (16:9), 704x576 (4:3), 704x480 (4:3), 640x480 (4:3), 400x240 (4:3), 352x288 (4:3), 352x256 (4:3), 352:240
-          (4:3), 320x240 (4:3)</td>
-        <td class="center different-value last">2 Megapixel Modus @ 30fps, 4 Megapixel Mode @20fps, 2592x1520 (16:9),
-          1920x1080 (16:9), 1280x1024 (5:4), 1280x720 (16:9), 1024x768 (4:3), 704x576 (4:3), 704x480 (4:3), 640x480
-          (4:3), 320x240 (4:3)</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Bildauflösung max.</span></td>
-        <td class="center">3840x2160</td>
-        <td class="center">3840x2160</td>
-        <td class="center">3840x2160</td>
-        <td class="center">3840x2160</td>
-        <td class="center different-value last">2592x1520</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Bilddarstellung</span></td>
-        <td class="center">4:3, 16:9, 5:4</td>
-        <td class="center">4:3, 16:9, 5:4</td>
-        <td class="center">4:3, 16:9, 5:4</td>
-        <td class="center">4:3, 16:9, 5:4</td>
-        <td class="center different-value last">VerticalView 90°/270°, 4:3, 16:9, 5:4</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Datenstromarten (Stream types)</span></td>
-        <td class="center">Quad Streaming</td>
-        <td class="center">Quad Streaming</td>
-        <td class="center">Quad Streaming</td>
-        <td class="center">Quad Streaming</td>
-        <td class="center different-value last">1x H.265, 1x H.264, 1x MJPEG simultan</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Bildübertragungsrate max.</span></td>
-        <td class="center">30 fps</td>
-        <td class="center">30 fps</td>
-        <td class="center">30 fps</td>
-        <td class="center">30 fps</td>
-        <td class="center last">30 fps</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Videokompression</span></td>
-        <td class="center">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>
-        <td class="center">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>
-        <td class="center">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>
-        <td class="center">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>
-        <td class="center last">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>
-      </tr>
-      <tr class="odd">
-        <td class="headline"><span class="nobr">Objektiv:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Objektiv Typ</span></td>
-        <td class="center">Varifokal (motorisiert)</td>
-        <td class="center">Varifokal (motorisiert)</td>
-        <td class="center">Varifokal (motorisiert)</td>
-        <td class="center">Varifokal (motorisiert)</td>
-        <td class="center different-value last">Festbrennweite</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Zoomfaktor</span></td>
-        <td class="center">3x</td>
-        <td class="center">3x</td>
-        <td class="center">3x</td>
-        <td class="center">3x</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Brennweite</span></td>
-        <td class="center">3,6 - 11 mm</td>
-        <td class="center">3,6 - 11 mm</td>
-        <td class="center">3,6 - 11 mm</td>
-        <td class="center">3,6 - 11 mm</td>
-        <td class="center different-value last">2,8 mm</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Digital Zoom</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">MOD (Minimum Object Distance)</span></td>
-        <td class="center">0,5 m</td>
-        <td class="center">0,5 m</td>
-        <td class="center">0,5 m</td>
-        <td class="center">0,5 m</td>
-        <td class="center different-value last">0,3 m</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Blendensteuerung</span></td>
-        <td class="center">P-Iris, DC</td>
-        <td class="center">P-Iris, DC</td>
-        <td class="center">P-Iris, DC</td>
-        <td class="center">P-Iris, DC</td>
-        <td class="center different-value last">DC</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Bildwinkel vertikal</span></td>
-        <td class="center">49 - 21 °</td>
-        <td class="center">49 - 21 °</td>
-        <td class="center">49 - 21 °</td>
-        <td class="center">49 - 21 °</td>
-        <td class="center different-value last">52 °</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Bildwinkel horizontal</span></td>
-        <td class="center">87 - 38 °</td>
-        <td class="center">87 - 38 °</td>
-        <td class="center">87 - 38 °</td>
-        <td class="center">87 - 38 °</td>
-        <td class="center different-value last">93 °</td>
-      </tr>
-      <tr class="even">
-        <td class="headline"><span class="nobr">DORI:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Wahrnehmen (25 px/m)</span></td>
-        <td class="center">94 - 230 m</td>
-        <td class="center">94 - 230 m</td>
-        <td class="center">94 - 230 m</td>
-        <td class="center">94 - 230 m</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Beobachten (62 px/m)</span></td>
-        <td class="center">40 - 95 m</td>
-        <td class="center">40 - 95 m</td>
-        <td class="center">40 - 95 m</td>
-        <td class="center">40 - 95 m</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Erkennen (125 px/m)</span></td>
-        <td class="center">17 - 47 m</td>
-        <td class="center">17 - 47 m</td>
-        <td class="center">17 - 47 m</td>
-        <td class="center">17 - 47 m</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Identifizieren (250 px/m)</span></td>
-        <td class="center">9 - 23 m</td>
-        <td class="center">9 - 23 m</td>
-        <td class="center">9 - 23 m</td>
-        <td class="center">9 - 23 m</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="odd">
-        <td class="headline"><span class="nobr">Funktionen:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Multicast-fähig</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center last">ja</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Bewegungsmelder</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center last">ja</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Analysefunktionen</span></td>
-        <td class="center">Bewegungsanalyse, Manipulationsschutz, Richtungserkennung (Trip Wire) mit Objektzähler,
-          Loitering Detektion, Eindringen (Intrusion), Personenerkennung, Defog, Bewegungserkennung (Motion Detection)
-        </td>
-        <td class="center">Bewegungsanalyse, Manipulationsschutz, Richtungserkennung (Trip Wire) mit Objektzähler,
-          Loitering Detektion, Eindringen (Intrusion), Personenerkennung, Defog, Bewegungserkennung (Motion Detection)
-        </td>
-        <td class="center">Bewegungsanalyse, Manipulationsschutz, Richtungserkennung (Trip Wire) mit Objektzähler,
-          Loitering Detektion, Eindringen (Intrusion), Personenerkennung, Defog, Bewegungserkennung (Motion Detection)
-        </td>
-        <td class="center">Bewegungsanalyse, Manipulationsschutz, Richtungserkennung (Trip Wire) mit Objektzähler,
-          Loitering Detektion, Eindringen (Intrusion), Personenerkennung, Defog, Bewegungserkennung (Motion Detection)
-        </td>
-        <td class="center different-value last">Bewegungsanalyse, Eindringen (Intrusion), Manipulationsschutz, Defog
-        </td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Alarmverarbeitung</span></td>
-        <td class="center">Aufzeichnung interner Speicher, E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML, Alarm
-          Ausgang, Alarm Weiterleitung (PRESET Aufruf von eneo PTZ Dome)</td>
-        <td class="center">Aufzeichnung interner Speicher, E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML, Alarm
-          Ausgang, Alarm Weiterleitung (PRESET Aufruf von eneo PTZ Dome)</td>
-        <td class="center">Aufzeichnung interner Speicher, E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML, Alarm
-          Ausgang, Alarm Weiterleitung (PRESET Aufruf von eneo PTZ Dome)</td>
-        <td class="center">Aufzeichnung interner Speicher, E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML, Alarm
-          Ausgang, Alarm Weiterleitung (PRESET Aufruf von eneo PTZ Dome)</td>
-        <td class="center different-value last">E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Drehbereich</span></td>
-        <td class="center">359 °</td>
-        <td class="center">359 °</td>
-        <td class="center">359 °</td>
-        <td class="center">359 °</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Vertikaler Neigebereich</span></td>
-        <td class="center">0 ~ +90°</td>
-        <td class="center">0 ~ +90°</td>
-        <td class="center">0 ~ +90°</td>
-        <td class="center">0 ~ +90°</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Audio</span></td>
-        <td class="center">2 Wege Audio</td>
-        <td class="center">2 Wege Audio</td>
-        <td class="center">2 Wege Audio</td>
-        <td class="center">2 Wege Audio</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Audiounterstützung</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center different-value last">nein</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Passwortschutz</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center last">ja</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">e-PTZ Unterstützung</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center last">ja</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Interner Speicher</span></td>
-        <td class="center">microSDHC-Karte, microSDXC-Karte</td>
-        <td class="center">microSDHC-Karte, microSDXC-Karte</td>
-        <td class="center">microSDHC-Karte, microSDXC-Karte</td>
-        <td class="center">microSDHC-Karte, microSDXC-Karte</td>
-        <td class="center different-value last">nein</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Menüsprachen</span></td>
-        <td class="center">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>
-        <td class="center">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>
-        <td class="center">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>
-        <td class="center">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>
-        <td class="center last">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Privacy Zones</span></td>
-        <td class="center">Zonen-Ein-/Ausschaltbar</td>
-        <td class="center">Zonen-Ein-/Ausschaltbar</td>
-        <td class="center">Zonen-Ein-/Ausschaltbar</td>
-        <td class="center">Zonen-Ein-/Ausschaltbar</td>
-        <td class="center last">Zonen-Ein-/Ausschaltbar</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Fernzugriff</span></td>
-        <td class="center">Web Browser</td>
-        <td class="center">Web Browser</td>
-        <td class="center">Web Browser</td>
-        <td class="center">Web Browser</td>
-        <td class="center last">Web Browser</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Web Browser</span></td>
-        <td class="center">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG Setup
-          eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>
-        <td class="center">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG Setup
-          eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>
-        <td class="center">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG Setup
-          eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>
-        <td class="center">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG Setup
-          eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>
-        <td class="center last">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG
-          Setup eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Benutzeroberfläche</span></td>
-        <td class="center">Type B (Weiß / Blau)</td>
-        <td class="center">Type B (Weiß / Blau)</td>
-        <td class="center">Type B (Weiß / Blau)</td>
-        <td class="center">Type B (Weiß / Blau)</td>
-        <td class="center last">Type B (Weiß / Blau)</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Mirror Function</span></td>
-        <td class="center">H-Flip, Spiegelbild</td>
-        <td class="center">H-Flip, Spiegelbild</td>
-        <td class="center">H-Flip, Spiegelbild</td>
-        <td class="center">H-Flip, Spiegelbild</td>
-        <td class="center last">H-Flip, Spiegelbild</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Digitale Rauschunterdrückung (DNR)</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center last">ja</td>
-      </tr>
-      <tr class="even">
-        <td class="headline"><span class="nobr">Netzwerk:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Netzwerkprotokolle</span></td>
-        <td class="center">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, RTP, UPnP, RTSP, RTCP, DHCP, ARP, Zeroconf,
-          Bonjour, QoS, OpenVPN</td>
-        <td class="center">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, RTP, UPnP, RTSP, RTCP, DHCP, ARP, Zeroconf,
-          Bonjour, QoS, OpenVPN</td>
-        <td class="center">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, RTP, UPnP, RTSP, RTCP, DHCP, ARP, Zeroconf,
-          Bonjour, QoS, OpenVPN</td>
-        <td class="center">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, RTP, UPnP, RTSP, RTCP, DHCP, ARP, Zeroconf,
-          Bonjour, QoS, OpenVPN</td>
-        <td class="center different-value last">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, UPnP, RTP, RTSP, RTCP, DHCP,
-          ARP, Zeroconf, Bonjour, QoS, OpenVPN</td>
-      </tr>
-      <tr class="even">
-        <td class="headline"><span class="nobr">Schnittstellen / Eingänge / Ausgänge:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Videoausgänge</span></td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center different-value last">nein</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Externe Anschlüsse</span></td>
-        <td class="center">Alarmausgang, Alarmeingang, Audio Ein/Ausgang, RJ-45, 12VDC-Eingang (DC-Buchse),
-          Anschlusskabel ca.40cm</td>
-        <td class="center">Alarmausgang, Alarmeingang, Audio Ein/Ausgang, RJ-45, 12VDC-Eingang (DC-Buchse),
-          Anschlusskabel ca.40cm</td>
-        <td class="center">Alarmausgang, Alarmeingang, Audio Ein/Ausgang, RJ-45, 12VDC-Eingang (DC-Buchse),
-          Anschlusskabel ca.40cm</td>
-        <td class="center">Alarmausgang, Alarmeingang, Audio Ein/Ausgang, RJ-45, 12VDC-Eingang (DC-Buchse),
-          Anschlusskabel ca.40cm</td>
-        <td class="center different-value last">RJ-45, 12VDC-Eingang (DC-Buchse), Anschlusskabel ca.40cm</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Ethernet-Schnittstelle</span></td>
-        <td class="center">10Base-T, 100Base-TX</td>
-        <td class="center">10Base-T, 100Base-TX</td>
-        <td class="center">10Base-T, 100Base-TX</td>
-        <td class="center">10Base-T, 100Base-TX</td>
-        <td class="center last">10Base-T, 100Base-TX</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Alarmeingänge</span></td>
-        <td class="center">1</td>
-        <td class="center">1</td>
-        <td class="center">1</td>
-        <td class="center">1</td>
-        <td class="center different-value last">nein</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Alarmausgänge</span></td>
-        <td class="center">1</td>
-        <td class="center">1</td>
-        <td class="center">1</td>
-        <td class="center">1</td>
-        <td class="center different-value last">nein</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Steuer-Schnittstellen</span></td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center">-</td>
-        <td class="center different-value last">Ethernet</td>
-      </tr>
-      <tr class="odd">
-        <td class="headline"><span class="nobr">Allgemeines:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Serie</span></td>
-        <td class="center">eneo SN-Serie</td>
-        <td class="center">eneo SN-Serie</td>
-        <td class="center">eneo SN-Serie</td>
-        <td class="center">eneo SN-Serie</td>
-        <td class="center different-value last">eneo EN-Serie, Safe &amp; Easy</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Abmessungen (HxBxT)</span></td>
-        <td class="center">99x144mm</td>
-        <td class="center">99x144mm</td>
-        <td class="center">99x144mm</td>
-        <td class="center">99x144mm</td>
-        <td class="center different-value last">85x90mm</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Beleuchtung</span></td>
-        <td class="center">Infrarot, 28x LED 850nm</td>
-        <td class="center">Infrarot, 28x LED 850nm</td>
-        <td class="center">Infrarot, 28x LED 850nm</td>
-        <td class="center">Infrarot, 28x LED 850nm</td>
-        <td class="center different-value last">Infrarot, 40x IR-LEDs 850nm</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Beleuchtungsreichweite</span></td>
-        <td class="center">ca. 30m</td>
-        <td class="center">ca. 30m</td>
-        <td class="center">ca. 30m</td>
-        <td class="center">ca. 30m</td>
-        <td class="center last">ca. 30m</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Farbe (Gehäuse)</span></td>
-        <td class="center">RAL9006</td>
-        <td class="center different-value">RAL7016</td>
-        <td class="center different-value">RAL9005</td>
-        <td class="center different-value">RAL DB703</td>
-        <td class="center different-value last">weiß</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Farbe (Kuppel)</span></td>
-        <td class="center">klar</td>
-        <td class="center">klar</td>
-        <td class="center">klar</td>
-        <td class="center">klar</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Gehäuse</span></td>
-        <td class="center">Außen</td>
-        <td class="center">Außen</td>
-        <td class="center">Außen</td>
-        <td class="center">Außen</td>
-        <td class="center last">Außen</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Gehäusematerial</span></td>
-        <td class="center">Aluminium</td>
-        <td class="center">Aluminium</td>
-        <td class="center">Aluminium</td>
-        <td class="center">Aluminium</td>
-        <td class="center last">Aluminium</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Gewicht</span></td>
-        <td class="center">785g</td>
-        <td class="center">785g</td>
-        <td class="center">785g</td>
-        <td class="center">785g</td>
-        <td class="center different-value last">385g</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Heizung</span></td>
-        <td class="center">nein</td>
-        <td class="center">nein</td>
-        <td class="center">nein</td>
-        <td class="center">nein</td>
-        <td class="center last">nein</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Leistungsaufnahme</span></td>
-        <td class="center">8,5W</td>
-        <td class="center">8,5W</td>
-        <td class="center">8,5W</td>
-        <td class="center">8,5W</td>
-        <td class="center different-value last">6W</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Lüfter</span></td>
-        <td class="center">nein</td>
-        <td class="center">nein</td>
-        <td class="center">nein</td>
-        <td class="center">nein</td>
-        <td class="center last">nein</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Montageart</span></td>
-        <td class="center">Wandmontage, Deckenmontage</td>
-        <td class="center">Wandmontage, Deckenmontage</td>
-        <td class="center">Wandmontage, Deckenmontage</td>
-        <td class="center">Wandmontage, Deckenmontage</td>
-        <td class="center last">Wandmontage, Deckenmontage</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">ONVIF</span></td>
-        <td class="center">ONVIF Profile S, ONVIF Profile T</td>
-        <td class="center">ONVIF Profile S, ONVIF Profile T</td>
-        <td class="center">ONVIF Profile S, ONVIF Profile T</td>
-        <td class="center">ONVIF Profile S, ONVIF Profile T</td>
-        <td class="center different-value last">ONVIF Profile S</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Power over Ethernet</span></td>
-        <td class="center">IEEE 802.3af</td>
-        <td class="center">IEEE 802.3af</td>
-        <td class="center">IEEE 802.3af</td>
-        <td class="center">IEEE 802.3af</td>
-        <td class="center last">IEEE 802.3af</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Schutzart</span></td>
-        <td class="center">IP66</td>
-        <td class="center">IP66</td>
-        <td class="center">IP66</td>
-        <td class="center">IP66</td>
-        <td class="center last">IP66</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">SDK</span></td>
-        <td class="center">auf Anfrage</td>
-        <td class="center">auf Anfrage</td>
-        <td class="center">auf Anfrage</td>
-        <td class="center">auf Anfrage</td>
-        <td class="center last">auf Anfrage</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Stromversorgung</span></td>
-        <td class="center">12VDC, PoE</td>
-        <td class="center">12VDC, PoE</td>
-        <td class="center">12VDC, PoE</td>
-        <td class="center">12VDC, PoE</td>
-        <td class="center different-value last">PoE, 12VDC</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Temperaturbereich (Betrieb)</span></td>
-        <td class="center">-20°C ~ +50°C</td>
-        <td class="center">-20°C ~ +50°C</td>
-        <td class="center">-20°C ~ +50°C</td>
-        <td class="center">-20°C ~ +50°C</td>
-        <td class="center last">-20°C ~ +50°C</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Texteinblendung</span></td>
-        <td class="center">vorhanden</td>
-        <td class="center">vorhanden</td>
-        <td class="center">vorhanden</td>
-        <td class="center">vorhanden</td>
-        <td class="center last">vorhanden</td>
-      </tr>
-      <tr class="even">
-        <td><span class="nobr">Vandalismusgeschützt</span></td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center">ja</td>
-        <td class="center different-value last">nein</td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Zertifizierungen</span></td>
-        <td class="center">IK10</td>
-        <td class="center">IK10</td>
-        <td class="center">IK10</td>
-        <td class="center">IK10</td>
-        <td class="center different-value last">-</td>
-      </tr>
-      <tr class="even">
-        <td class="headline"><span class="nobr">Lieferumfang:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Lieferumfang</span></td>
-        <td class="center">Betriebsanleitung, Befestigungsbeipack</td>
-        <td class="center">Betriebsanleitung, Befestigungsbeipack</td>
-        <td class="center">Betriebsanleitung, Befestigungsbeipack</td>
-        <td class="center">Betriebsanleitung, Befestigungsbeipack</td>
-        <td class="center last">Betriebsanleitung, Befestigungsbeipack</td>
-      </tr>
-      <tr class="even">
-        <td class="headline"><span class="nobr">Hinweise:</span></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline"></td>
-        <td class="center headline last"></td>
-      </tr>
-      <tr class="odd">
-        <td><span class="nobr">Bemerkung</span></td>
-        <td class="center">Beachten Sie, dass elektronische Einstellhilfen wie Zoom/Focus oder Pan/Tilt Funktionen nicht
-          für den Dauerbetrieb ausgelegt sind., Farblich passendes Zubehör auf Anfrage</td>
-        <td class="center">Beachten Sie, dass elektronische Einstellhilfen wie Zoom/Focus oder Pan/Tilt Funktionen nicht
-          für den Dauerbetrieb ausgelegt sind., Farblich passendes Zubehör auf Anfrage</td>
-        <td class="center">Beachten Sie, dass elektronische Einstellhilfen wie Zoom/Focus oder Pan/Tilt Funktionen nicht
-          für den Dauerbetrieb ausgelegt sind., Farblich passendes Zubehör auf Anfrage</td>
-        <td class="center">Beachten Sie, dass elektronische Einstellhilfen wie Zoom/Focus oder Pan/Tilt Funktionen nicht
-          für den Dauerbetrieb ausgelegt sind., Farblich passendes Zubehör auf Anfrage</td>
-        <td class="center different-value last">-</td>
-      </tr>
-
-
+                                                                  <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">Kamera:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td class=""><span class="nobr">Kameraform</span></td>
+                                                                                                                  <td class="center">Dome</td>                            	                	                                                                                                                        <td class="center last">Dome</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td class=""><span class="nobr">Chipgröße</span></td>
+                                                                                                                  <td class="center">1/2,5"</td>                            	                	                                                                                                                        <td class="center different-value last">1/3"</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td class=""><span class="nobr">Auflösungsstandard</span></td>
+                                                                                                                  <td class="center">4K Ultra HD</td>                            	                	                                                                                                                        <td class="center different-value last">4 Megapixel</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td class=""><span class="nobr">Aufnahmesensor</span></td>
+                                                                                                                  <td class="center">CMOS, Sony STARVIS, Sensor IMX274</td>                            	                	                                                                                                                        <td class="center different-value last">CMOS, OmniVision Sensor 4689</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">System</span></td>
+                                                                                                                  <td class="center">True Day&amp;Night</td>                            	                	                                                                                                                        <td class="center last">True Day&amp;Night</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Lichtempfindlichkeit</span></td>
+                                                                                                                  <td class="center">0,03 Lux, bei F1,5, 40IRE</td>                            	                	                                                                                                                        <td class="center different-value last">0,1 Lux, bei F2,1, 50 IRE</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Low Speed Shutter</span></td>
+                                                                                                                  <td class="center">ja, automatisch</td>                            	                	                                                                                                                        <td class="center last">ja, automatisch</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Manueller elektronischer Shutter (MES)</span></td>
+                                                                                                                  <td class="center">1~1/20.000sec.</td>                            	                	                                                                                                                        <td class="center last">1~1/20.000sec.</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Automatischer Elektronischer Shutter (ESC)</span></td>
+                                                                                                                  <td class="center">1~1/20.000sec.</td>                            	                	                                                                                                                        <td class="center last">1~1/20.000sec.</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Wide Dynamic Range (WDR)</span></td>
+                                                                                                                  <td class="center">WDR 120dB</td>                            	                	                                                                                                                        <td class="center different-value last">D-WDR</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Gegenlichtkompensation</span></td>
+                                                                                                                  <td class="center">Smart BLC</td>                            	                	                                                                                                                        <td class="center different-value last">BLC</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Umschaltung Tag/Nachtbetrieb</span></td>
+                                                                                                                  <td class="center">Tag, Nacht, automatisch</td>                            	                	                                                                                                                        <td class="center last">Tag, Nacht, automatisch</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">IR-Sperrfilter</span></td>
+                                                                                                                  <td class="center">schaltbar</td>                            	                	                                                                                                                        <td class="center last">schaltbar</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Weißabgleich</span></td>
+                                                                                                                  <td class="center">automatisch, manuell</td>                            	                	                                                                                                                        <td class="center last">automatisch, manuell</td>                            	                	            </tr>
+                                                                                            <tr class="odd">
+                                                                                                                            <td><span class="nobr">Signal-/Rauschabstand</span></td>
+                                                                                                                  <td class="center">-</td>                            	                	                                                                                                                        <td class="center different-value last">50dB</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">Video:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Auflösung</span></td>
+                                                                                                                  <td class="center">3840x2160 (16:9), 3072x2048 (4:3), 2592x1944 (4:3), 2592x1520 (16:9), 2560x1440 (16:9), 1920x1080 (16:9), 1440x1080 (4:3), 1280x1024 (5:4), 1024x768 (4:3), 1280x720 (16:9), 800x600 (4:3), 800x480 (16:9), 704x576 (4:3), 704x480 (4:3), 640x480 (4:3), 400x240 (4:3), 352x288 (4:3), 352x256 (4:3), 352:240 (4:3), 320x240 (4:3)</td>                            	                	                                                                                                                        <td class="center different-value last">2 Megapixel Modus @ 30fps, 4 Megapixel Mode @20fps, 2592x1520 (16:9), 1920x1080 (16:9), 1280x1024 (5:4), 1280x720 (16:9), 1024x768 (4:3), 704x576 (4:3), 704x480 (4:3), 640x480 (4:3), 320x240 (4:3)</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Bildauflösung max.</span></td>
+                                                                                                                  <td class="center">3840x2160</td>                            	                	                                                                                                                        <td class="center different-value last">2592x1520</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Bilddarstellung</span></td>
+                                                                                                                  <td class="center">4:3, 16:9, 5:4</td>                            	                	                                                                                                                        <td class="center different-value last">VerticalView 90°/270°, 4:3, 16:9, 5:4</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Datenstromarten (Stream types)</span></td>
+                                                                                                                  <td class="center">Quad Streaming</td>                            	                	                                                                                                                        <td class="center different-value last">1x H.265, 1x H.264, 1x MJPEG simultan</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Bildübertragungsrate max.</span></td>
+                                                                                                                  <td class="center">30 fps</td>                            	                	                                                                                                                        <td class="center last">30 fps</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Videokompression</span></td>
+                                                                                                                  <td class="center">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>                            	                	                                                                                                                        <td class="center last">H.264, H.265, H.264+ (Smart Stream), H.265+ (Smart Stream), M-JPEG</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td class="headline"><span class="nobr">Objektiv:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Objektiv Typ</span></td>
+                                                                                                                  <td class="center">Varifokal (motorisiert)</td>                            	                	                                                                                                                        <td class="center different-value last">Festbrennweite</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Zoomfaktor</span></td>
+                                                                                                                  <td class="center">3x</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Brennweite</span></td>
+                                                                                                                  <td class="center">3,6 - 11 mm</td>                            	                	                                                                                                                        <td class="center different-value last">2,8 mm</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Digital Zoom</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">MOD (Minimum Object Distance)</span></td>
+                                                                                                                  <td class="center">0,5 m</td>                            	                	                                                                                                                        <td class="center different-value last">0,3 m</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Blendensteuerung</span></td>
+                                                                                                                  <td class="center">P-Iris, DC</td>                            	                	                                                                                                                        <td class="center different-value last">DC</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Bildwinkel vertikal</span></td>
+                                                                                                                  <td class="center">49 - 21 °</td>                            	                	                                                                                                                        <td class="center different-value last">52 °</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Bildwinkel horizontal</span></td>
+                                                                                                                  <td class="center">87 - 38 °</td>                            	                	                                                                                                                        <td class="center different-value last">93 °</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">DORI:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Wahrnehmen (25 px/m)</span></td>
+                                                                                                                  <td class="center">94 - 230 m</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Beobachten (62 px/m)</span></td>
+                                                                                                                  <td class="center">40 - 95 m</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Erkennen (125 px/m)</span></td>
+                                                                                                                  <td class="center">17 - 47 m</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Identifizieren (250 px/m)</span></td>
+                                                                                                                  <td class="center">9 - 23 m</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td class="headline"><span class="nobr">Funktionen:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Multicast-fähig</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center last">ja</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Bewegungsmelder</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center last">ja</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Analysefunktionen</span></td>
+                                                                                                                  <td class="center">Bewegungsanalyse, Manipulationsschutz, Richtungserkennung (Trip Wire) mit Objektzähler, Loitering Detektion, Eindringen (Intrusion), Personenerkennung, Defog, Bewegungserkennung (Motion Detection)</td>                            	                	                                                                                                                        <td class="center different-value last">Bewegungsanalyse, Eindringen (Intrusion), Manipulationsschutz, Defog</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Alarmverarbeitung</span></td>
+                                                                                                                  <td class="center">Aufzeichnung interner Speicher, E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML, Alarm Ausgang, Alarm Weiterleitung (PRESET Aufruf von eneo PTZ Dome)</td>                            	                	                                                                                                                        <td class="center different-value last">E-Mail, FTP, Boost, HTTP, TCP, UDP, HTTPS, XML</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Drehbereich</span></td>
+                                                                                                                  <td class="center">359 °</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Vertikaler Neigebereich</span></td>
+                                                                                                                  <td class="center">0 ~ +90°</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Audio</span></td>
+                                                                                                                  <td class="center">2 Wege Audio</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Audiounterstützung</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center different-value last">nein</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Passwortschutz</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center last">ja</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">e-PTZ Unterstützung</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center last">ja</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Interner Speicher</span></td>
+                                                                                                                  <td class="center">microSDHC-Karte, microSDXC-Karte</td>                            	                	                                                                                                                        <td class="center different-value last">nein</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Menüsprachen</span></td>
+                                                                                                                  <td class="center">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>                            	                	                                                                                                                        <td class="center last">englisch, deutsch, französisch, russisch, chinesisch, koreanisch, japanisch</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Privacy Zones</span></td>
+                                                                                                                  <td class="center">Zonen-Ein-/Ausschaltbar</td>                            	                	                                                                                                                        <td class="center last">Zonen-Ein-/Ausschaltbar</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Fernzugriff</span></td>
+                                                                                                                  <td class="center">Web Browser</td>                            	                	                                                                                                                        <td class="center last">Web Browser</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Web Browser</span></td>
+                                                                                                                  <td class="center">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG Setup eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>                            	                	                                                                                                                        <td class="center last">MS internet Explorer: ActiveX ab 9.0, Safari: MJPEG Setup eingeschränkt, Mozilla: MJPEG Setup eingeschränkt, Google Chrome: MJPEG Setup eingeschränkt, Edge: MJPEG Setup eingeschränkt</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Benutzeroberfläche</span></td>
+                                                                                                                  <td class="center">Type B (Weiß / Blau)</td>                            	                	                                                                                                                        <td class="center last">Type B (Weiß / Blau)</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Mirror Function</span></td>
+                                                                                                                  <td class="center">H-Flip, Spiegelbild</td>                            	                	                                                                                                                        <td class="center last">H-Flip, Spiegelbild</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Digitale Rauschunterdrückung (DNR)</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center last">ja</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">Netzwerk:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Netzwerkprotokolle</span></td>
+                                                                                                                  <td class="center">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, RTP, UPnP, RTSP, RTCP, DHCP, ARP, Zeroconf, Bonjour, QoS, OpenVPN</td>                            	                	                                                                                                                        <td class="center different-value last">TCP/IP, UDP, IPv4, IPv6, HTTP, HTTPS, FTP, UPnP, RTP, RTSP, RTCP, DHCP, ARP, Zeroconf, Bonjour, QoS, OpenVPN</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">Schnittstellen / Eingänge / Ausgänge:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <tr class="odd">
+                                                                                                                            <td><span class="nobr">Videoausgänge</span></td>
+                                                                                                                  <td class="center">-</td>                            	                	                                                                                                                        <td class="center different-value last">nein</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Externe Anschlüsse</span></td>
+                                                                                                                  <td class="center">Alarmausgang, Alarmeingang, Audio Ein/Ausgang, RJ-45, 12VDC-Eingang (DC-Buchse), Anschlusskabel ca.40cm</td>                            	                	                                                                                                                        <td class="center different-value last">RJ-45, 12VDC-Eingang (DC-Buchse), Anschlusskabel ca.40cm</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Ethernet-Schnittstelle</span></td>
+                                                                                                                  <td class="center">10Base-T, 100Base-TX</td>                            	                	                                                                                                                        <td class="center last">10Base-T, 100Base-TX</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Alarmeingänge</span></td>
+                                                                                                                  <td class="center">1</td>                            	                	                                                                                                                        <td class="center different-value last">nein</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">Alarmausgänge</span></td>
+                                                                                                                  <td class="center">1</td>                            	                	                                                                                                                        <td class="center different-value last">nein</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                    <tr class="even">
+                                                                                                                            <td><span class="nobr">Steuer-Schnittstellen</span></td>
+                                                                                                                  <td class="center">-</td>                            	                	                                                                                                                        <td class="center different-value last">Ethernet</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td class="headline"><span class="nobr">Allgemeines:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Serie</span></td>
+                                                                                                                  <td class="center">eneo SN-Serie</td>                            	                	                                                                                                                        <td class="center different-value last">eneo EN-Serie, Safe &amp; Easy</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Abmessungen (HxBxT)</span></td>
+                                                                                                                  <td class="center">99x144mm</td>                            	                	                                                                                                                        <td class="center different-value last">85x90mm</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Beleuchtung</span></td>
+                                                                                                                  <td class="center">Infrarot, 28x LED 850nm</td>                            	                	                                                                                                                        <td class="center different-value last">Infrarot, 40x IR-LEDs  850nm</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Beleuchtungsreichweite</span></td>
+                                                                                                                  <td class="center">ca. 30m</td>                            	                	                                                                                                                        <td class="center last">ca. 30m</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Farbe (Gehäuse)</span></td>
+                                                                                                                  <td class="center">RAL9006</td>                            	                	                                                                                                                        <td class="center different-value last">weiß</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Farbe (Kuppel)</span></td>
+                                                                                                                  <td class="center">klar</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Gehäuse</span></td>
+                                                                                                                  <td class="center">Außen</td>                            	                	                                                                                                                        <td class="center last">Außen</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Gehäusematerial</span></td>
+                                                                                                                  <td class="center">Aluminium</td>                            	                	                                                                                                                        <td class="center last">Aluminium</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Gewicht</span></td>
+                                                                                                                  <td class="center">785g</td>                            	                	                                                                                                                        <td class="center different-value last">385g</td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Heizung</span></td>
+                                                                                                                  <td class="center">nein</td>                            	                	                                                                                                                        <td class="center last">nein</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Leistungsaufnahme</span></td>
+                                                                                                                  <td class="center">8,5W</td>                            	                	                                                                                                                        <td class="center different-value last">6W</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Lüfter</span></td>
+                                                                                                                  <td class="center">nein</td>                            	                	                                                                                                                        <td class="center last">nein</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Montageart</span></td>
+                                                                                                                  <td class="center">Wandmontage, Deckenmontage</td>                            	                	                                                                                                                        <td class="center last">Wandmontage, Deckenmontage</td>                            	                	            </tr>
+                                                                                                                                                          <tr class="odd">
+                                                                                                                            <td><span class="nobr">ONVIF</span></td>
+                                                                                                                  <td class="center">ONVIF Profile S, ONVIF Profile T</td>                            	                	                                                                                                                        <td class="center different-value last">ONVIF Profile S</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Power over Ethernet</span></td>
+                                                                                                                  <td class="center">IEEE 802.3af</td>                            	                	                                                                                                                        <td class="center last">IEEE 802.3af</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Schutzart</span></td>
+                                                                                                                  <td class="center">IP66</td>                            	                	                                                                                                                        <td class="center last">IP66</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">SDK</span></td>
+                                                                                                                  <td class="center">auf Anfrage</td>                            	                	                                                                                                                        <td class="center last">auf Anfrage</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Stromversorgung</span></td>
+                                                                                                                  <td class="center">12VDC, PoE</td>                            	                	                                                                                                                        <td class="center different-value last">PoE, 12VDC</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="even">
+                                                                                                                            <td><span class="nobr">Temperaturbereich (Betrieb)</span></td>
+                                                                                                                  <td class="center">-20°C ~ +50°C</td>                            	                	                                                                                                                        <td class="center last">-20°C ~ +50°C</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Texteinblendung</span></td>
+                                                                                                                  <td class="center">vorhanden</td>                            	                	                                                                                                                        <td class="center last">vorhanden</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <tr class="even">
+                                                                                                                            <td><span class="nobr">Vandalismusgeschützt</span></td>
+                                                                                                                  <td class="center">ja</td>                            	                	                                                                                                                        <td class="center different-value last">nein</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Zertifizierungen</span></td>
+                                                                                                                  <td class="center">IK10</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">Lieferumfang:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Lieferumfang</span></td>
+                                                                                                                  <td class="center">Betriebsanleitung, Befestigungsbeipack</td>                            	                	                                                                                                                        <td class="center last">Betriebsanleitung, Befestigungsbeipack</td>                            	                	            </tr>
+                                                                  <tr class="even">
+                                                                                                                            <td class="headline"><span class="nobr">Hinweise:</span></td>
+                                                                                                                  <td class="center headline"></td>                            	                	                                                                                                                        <td class="center headline last"></td>                            	                	            </tr>
+                                                                  <tr class="odd">
+                                                                                                                            <td><span class="nobr">Bemerkung</span></td>
+                                                                                                                  <td class="center">Beachten Sie, dass elektronische Einstellhilfen wie  Zoom/Focus oder Pan/Tilt Funktionen nicht für den Dauerbetrieb ausgelegt sind., Farblich passendes Zubehör auf Anfrage</td>                            	                	                                                                                                                        <td class="center different-value last">-</td>                            	                	            </tr>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    
       <tr class="add-to-row last even">
-        <td>Optionen</td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-9006.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10955/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10955/" class="link-wishlist "
-                id="am_10955_2">Merken</a></li>
-          </ul>
-        </td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-7016.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10956/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10956/" class="link-wishlist "
-                id="am_10956_2">Merken</a></li>
-          </ul>
-        </td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-9005.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10957/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10957/" class="link-wishlist "
-                id="am_10957_2">Merken</a></li>
-          </ul>
-        </td>
-        <td>
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-68m3611maa-703.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10958/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10958/" class="link-wishlist "
-                id="am_10958_2">Merken</a></li>
-          </ul>
-        </td>
-        <td class="last">
-          <ul class="list list--alpha helper--delta">
-            <li><a href="https://eneo-security.com/de/ied-54f0028mba.html" class="link-wishlist">Details</a></li>
-            <li><a
-                href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10976/',1);"
-                name="https://eneo-security.com/de/amlist/list/addItem/product/10976/" class="link-wishlist "
-                id="am_10976_2">Merken</a></li>
-          </ul>
-        </td>
-      </tr>
+                                                                <td>Optionen</td>
+                            <td>
+              <ul class="list list--alpha helper--delta">
+                  <li><a href="https://eneo-security.com/de/ied-68m3611maa-9006.html" class="link-wishlist">Details</a></li>
+                  <li><a href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10955/',1);" name="https://eneo-security.com/de/amlist/list/addItem/product/10955/" class="link-wishlist " id="am_10955_2">Merken</a></li>
+              </ul>
+          </td>
+                                              <td class="last">
+              <ul class="list list--alpha helper--delta">
+                  <li><a href="https://eneo-security.com/de/ied-54f0028mba.html" class="link-wishlist">Details</a></li>
+                  <li><a href="javascript:am_add_to_list_('https://eneo-security.com/de/amlist/list/addItem/product/10976/',1);" name="https://eneo-security.com/de/amlist/list/addItem/product/10976/" class="link-wishlist " id="am_10976_2">Merken</a></li>
+              </ul>
+          </td>
+                        </tr>
 
-    </tbody>
+  </tbody>
   </table>
 
 
-  <script>
-    const rows = document.getElementsByTagName('tr');
-
-    const addColor = (cell) => {
-      cell.classList.add('difference-accent');
-    };
-
-    const colorIfDifferent = (rows) => {
-      for (const row of rows) {
-        const cells = row.getElementsByTagName('td');
-        const firstCell = cells[1];
-
-        for (let i = 2; i < cells.length; i++) {
-          let currentCell = cells[i];
-          if (currentCell.innerText !== firstCell.innerText) addColor(currentCell);
-        }
-      }
-    };
-
-    colorIfDifferent(rows);
-  </script>
+  <script src="./index.js"></script>
 
 </body>
 
